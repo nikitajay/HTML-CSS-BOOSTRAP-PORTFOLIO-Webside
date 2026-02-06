@@ -80,3 +80,12 @@ footer {
     color: white;
     text-align: center;
 }
+
+.card-animate {
+    transition: all 0.3s ease;
+}
+
+.card-animate:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
